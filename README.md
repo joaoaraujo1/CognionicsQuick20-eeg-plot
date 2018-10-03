@@ -10,3 +10,15 @@ Folder description:
 - Dev_Comm: Contains the C code to read/transform/store the FTDI chip data and run the MATLAB engine
 - Activity_Plot: Contains the initialization and main loop scripts for plotting the EEG activity.
 - Impedance_Real_Time: Contains the script for the impedance check.
+
+
+Screenshots:
+
+EEG pattern of a subject with his eyes open:
+![eyesopen](https://user-images.githubusercontent.com/40466329/46423755-33b9b900-c72f-11e8-94d2-b752a0e1f099.jpg)
+
+EEG pattern of a subject with his eyes closed:
+![eyesclosed](https://user-images.githubusercontent.com/40466329/46423732-23094300-c72f-11e8-8802-f33c589ab390.jpg)
+
+Electrode impedance check:
+<img width="1280" alt="real time impedance ss" src="https://user-images.githubusercontent.com/40466329/46423810-59df5900-c72f-11e8-9087-51919de8365b.png">
