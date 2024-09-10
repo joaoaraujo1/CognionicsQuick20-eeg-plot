@@ -1,4 +1,19 @@
-# CognionicsQuick20-eeg-plot
+# Cognionics Quick20 Projects
+
+## Prototype of a working closed-loop BCI (DYS_BCI)
+First iteration of a dyslexia BCI using auditory input and visual feedback. Based on the BCI Award 2022 nominee project [book chapter](https://link.springer.com/chapter/10.1007/978-3-031-49457-4_2) and on the modeling work provided on [this paper](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2024.1403677/full).
+Written in Python using the ftd2xx library for chip reading and pygame for the paradigm. Includes a simple algorithm for online detection of blinking artifacts and signal correction with baselne distribution sampling. Schematics below:
+
+.
+
+.
+
+![image](https://raw.githubusercontent.com/joaoaraujo1/CognionicsQuick20-eeg-plot/master/DYS_BCI/BCI_schematic.png)
+
+.
+
+
+## CognionicsQuick20-eeg-plot (Dev_Comm, Activity_Plot, Impedance_Real_Time)
 Code that allows efficient reading, plotting and impedance check of EEG brain signals from a Cognionics Quick20 EEG headset with 4Hz refreshes. Coded in C and MATLAB. The code pipeline is as follows:
 - A session is started and the user is asked to input its code name and run name. A directory based on these values is created.
 - The FTDI-chip device is open and a MATLAB engine is initialized
